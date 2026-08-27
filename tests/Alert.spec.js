@@ -34,5 +34,5 @@ test('Alert Handling', async ({ page }) => {
     // await page.waitForTimeout(3000)
     const text = await page.locator('//p[@id="demo1"]').textContent()
     console.log(text)
-    await expect(text).toContain('Hii Buddy')
+    await expect(text).toContain('Hello Bro')
 })
